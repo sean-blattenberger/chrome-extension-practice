@@ -1,4 +1,4 @@
-const apiKey = "oqAyq0sEkm5cSKOmMw9vdHzXlYJbnHd4";
+const apiKey = "";
 const searchTerms = ["puppies", "dog", "dogs", "puppy", "cats", "cat", "kitten", "kittens"];
 const url = `http://api.giphy.com/v1/gifs/search?q=${searchTerms[getRandom(searchTerms.length)]}&api_key=${apiKey}&limit=50`;
 
